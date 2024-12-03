@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0em 5em;
+}
+.left{
+    background-color: #ffffff;
+    align-items: start;
+    padding: 1em 2em;
+}
+h2{
+    color: #17abb3;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    align-items: center;
+    padding-left: 0;
+}
+li{
+    color: black;
+}
+.stars{
+    color: #17abb3;
+}
