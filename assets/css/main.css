@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0em 5em;
+}
+.left{
+    background-color: #ffffff;
+    align-items: start;
+    padding: 1em 2em;
+    color: black;
+    width: 15em;
+}
+h2{
+    color: #17abb3;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-left: 1em;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.stars{
+    color: #17abb3;
+}
+span{
+    white-space: nowrap;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+li{
+    list-style-type: square;
+}
+li::marker{
+    color: #17abb3;
+}
